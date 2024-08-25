@@ -15,13 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    ellucian,
     carrent,
-    jobit,
-    tripguide,
+    banking,
+    realEstate,
     threejs,
   } from "../assets";
   
@@ -116,54 +113,30 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Technical Intern (Software Engineer)",
+      company_name: "Ellucian",
+      icon: ellucian,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "February 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed code for parsing SQL Queries and extracting tables and columns from XML Metadata.",
+        "Iterated features using Agile methodologies, ensuring timely delivery through sprints, continuous feedback, and collaboration with cross-functional teams.",
+        "Participating in the Hackathon and created an AI tool that used semantic similarity for checking plagiarism.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineer I",
+      company_name: "Ellucian",
+      icon: ellucian,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "June 2023 - July 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Developed the Object Assessment Tool, decrypting Evisions Argos metadata containing 2,000-4,000 data blocks, reducing analysis time by 95%.",
+        "Generated ObjectAssessmentReport detailing custom objects, cutting manual reporting time by 80%.",
+        "Prepared the Object Migration Tool, using the ObjectAssessmentReport to identify non-baseline objects, reducing migration time by 85%.",
+        "The tools reduced processing time to around 50-60 hours, saving over 90% of manual effort.",
+        "Initiated development of Argos PG Migration Tool to convert SQL queries directly from Argos metadata to PostgreSQL, aiming to automate 95% of conversions.",
+        "Collaborating with cross-functional teams including product managers, and other developers to create high-quality tools.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
@@ -198,6 +171,27 @@ import {
   
   const projects = [
     {
+      name: "Banking Management",
+      description:
+        "Web application that allows users to manage their bank accounts, view transaction histories, transfer funds between accounts and monitor account balances in real-time. It provides secure access to financial services and supports features like account management and customer support.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: banking,
+      source_code_link: "https://github.com/jkalta/banking_management",
+    },
+    {
       name: "Car Rent",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
@@ -216,33 +210,12 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jkalta/cars_showcase",
     },
     {
-      name: "Job IT",
+      name: "Real Estate",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+       "Real estate web application that allows users to search for both rentable and ownable properties. The platform provides detailed property listings, including photos, pricing, and location-based filters. Users can explore a variety of residential and commercial properties, save their favorite listings, and contact property owners or agents directly through the app.",
       tags: [
         {
           name: "nextjs",
@@ -257,8 +230,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: realEstate,
+      source_code_link: "https://github.com/jkalta/realEstate",
     },
   ];
   
